@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.mainContainer {
+  margin: 25px auto 0;
+  box-sizing: content-box;
+  height: 256px;
+  width: 256px;
+  border: 2px solid royalblue;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.square {
+  border: 1px solid #090909;
+  width: 16px;
+  height: 16px;
+}
+
+.active {
+  background-color: #090909;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1 {
+  text-align: center;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
